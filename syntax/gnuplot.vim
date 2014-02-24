@@ -2,26 +2,28 @@
 " Language:	gnuplot 4.7.0
 " Maintainer:	Andrew Rasmussen andyras@users.sourceforge.net
 " Original Maintainer:	John Hoelzel johnh51@users.sourceforge.net
-" Last Change:	2014-02-23
+" Last Change:	2014-02-24
 " Filenames:	*.gnu *.plt *.gpi *.gih *.gp *.gnuplot scripts: #!*gnuplot
-" Original URL:		http://johnh51.get.to/vim/syntax/gnuplot.vim
+" URL:		http://www.vim.org/scripts/script.php?script_id=4873
+" Original URL:	http://johnh51.get.to/vim/syntax/gnuplot.vim
 
-" thanks to "David Necas (Yeti)" <yeti@physics.muni.cz> for heads up - working on more changes .
-" #!*gnuplot = for Linux bash shell scripts of gnuplot commands.
-"
+" thanks to "David Necas (Yeti)" <yeti@physics.muni.cz>
+
 " credit also to Jim Eberle <jim.eberle@fastnlight.com>
-
-" For version 5.x: Clear all syntax items
-" For version 6.x: Quit when a syntax file was already loaded
-" TODO uncomment this command block when actually using the file
-"if version < 600
-"  syntax clear
-"elseif exists("b:current_syntax")
-"  finish
-"endif
+" for the script http://www.vim.org/scripts/script.php?script_id=1737
 
 " some shortened names to make demo files look clean... jeh. 11/2000
 " demos -> 3.8i ... jeh. 5/2003 - a work in progress...
+" added current commands, keywords, variables, todos, macros... amr 2014-02-24
+
+" For vim version 5.x: Clear all syntax items
+" For vim version 6.x: Quit when a syntax file was already loaded
+
+if version < 600
+  syntax clear
+elseif exists("b:current_syntax")
+  finish
+endif
 
 " ---- Special characters ---- "
 
