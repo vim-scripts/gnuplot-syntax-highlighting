@@ -202,7 +202,7 @@ syn keyword gnuplotKeyword	errorbars errorlines financebars xerrorbars
 syn keyword gnuplotKeyword	xerrorlines xyerrorbars yerrorbars yerrorlines
 syn keyword gnuplotKeyword	boxes boxerrorbars boxxyerrorbars boxplot
 syn keyword gnuplotKeyword	candlesticks circles ellipses filledcurves
-syn keyword gnuplotKeyword	histogram image rgbimage rgbalpha pm3d
+syn keyword gnuplotKeyword	histogram image rgbimage rgbalpha pm3d variable
 
 " keywords for 'save' command
 syn keyword gnuplotKeyword	save functions func variables all var terminal
